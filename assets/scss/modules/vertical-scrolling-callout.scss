@@ -1,5 +1,7 @@
 .callout{
-    padding: 12em;
+    padding-left: 12.2em;
+    padding-right: 14.8em;
+    padding-top: 13.6em;
 }
 
 .vertical-componet{
@@ -8,6 +10,34 @@
 
 }
 
-.vertical-componet>img {
- width: 25em;
+.program-description{
+    margin-left: 9em;
+}
+
+.program-description>p{
+    max-width: 45.9em;
+    max-height: 26.2em;
+
+    font-family: 'Akshar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2;
+}
+
+.program-description>h3{
+    height: 42px;
+
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.program-visual{
+ width: 46.3em;
+ height: 54.3em;
 }

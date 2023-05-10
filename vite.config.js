@@ -1,5 +1,6 @@
 import legacy from '@vitejs/plugin-legacy'
 import ViteRestart from 'vite-plugin-restart';
+import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default ({ command }) => ({
@@ -24,6 +25,11 @@ export default ({ command }) => ({
       ],
     }),
   ],
+  resolve: {
+    alias: {
+      '@/fonts': resolve('./assets/fonts'),
+    },
+  },
   server: {
     host: '0.0.0.0',
   },
